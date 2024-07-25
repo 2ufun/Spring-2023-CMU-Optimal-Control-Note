@@ -1,6 +1,6 @@
 # 2023年春季CMU最优控制课程笔记
 
-由于本人习惯使用Python，故学习此课程中的所有代码均采用Python编写。
+因为我不是很喜欢Julia语言的原因，所以程序部分主要采用Python编写，小部分内容使用了Racket。
 
 [课程项目链接](https://github.com/Optimal-Control-16-745/lecture-notebooks/)
 
