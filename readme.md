@@ -1,6 +1,8 @@
 # 2023年春季CMU最优控制课程笔记
 
-因为我不是很喜欢Julia语言的原因，所以程序部分主要采用Python编写，小部分内容使用了Racket。
+我不是很喜欢Julia，比方说它的索引从1开始这一点，所以我用Python改写了课程中的大部分代码，其余部分则使用了Racket，因为有的程序用递归要比循环更直观一些。
+
+梳理数学公式时，我使用了TeXmacs来编写PDF文件，这个软件键入数学公式很方便。
 
 [课程项目链接](https://github.com/Optimal-Control-16-745/lecture-notebooks/)
 
