@@ -171,7 +171,7 @@
   \<#5219\>\<#725B\>\<#987F\>\<#8FED\>\<#4EE3\>\<#6CD5\>\<#5355\>\<#6B65\>\<#5982\>\<#4E0B\>
 
   <\eqnarray*>
-    <tformat|<table|<row|<cell|>|<cell|X<rsub|k+1>=X<rsub|k>+\<Delta\>X>|<cell|>>|<row|<cell|>|<cell|\<Delta\>X=<matrix|<tformat|<table|<row|<cell|\<Delta\>x>>|<row|<cell|\<Delta\>\<lambda\>>>>>>=-<matrix|<tformat|<table|<row|<cell|\<nabla\><rsup|2><rsub|x>L<around*|(|x,\<lambda\>|)>>|<cell|<around*|(|<frac|\<partial\>C|\<partial\>x>|)><rsup|T>>>|<row|<cell|<frac|\<partial\>C|\<partial\>x>>|<cell|0>>>>><matrix|<tformat|<table|<row|<cell|\<nabla\><rsub|x>L<around*|(|x<rsub|k>,\<lambda\><rsub|k>|)>>>|<row|<cell|C<around*|(|x<rsub|k>|)>>>>>>>|<cell|>>|<row|<cell|>|<cell|\<nabla\><rsup|2><rsub|x>L<around*|(|x,\<lambda\>|)>=\<nabla\><rsub|x><rsup|2>f<around*|(|x|)>+<frac|\<partial\>|\<partial\>x><around*|(|<around*|(|<frac|\<partial\>C|\<partial\>x>|)><rsup|T>\<lambda\>|)>>|<cell|>>>>
+    <tformat|<table|<row|<cell|>|<cell|X<rsub|k+1>=X<rsub|k>+\<Delta\>X>|<cell|>>|<row|<cell|>|<cell|\<Delta\>X=<matrix|<tformat|<table|<row|<cell|\<Delta\>x>>|<row|<cell|\<Delta\>\<lambda\>>>>>>=-<matrix|<tformat|<table|<row|<cell|\<nabla\><rsup|2><rsub|x>L<around*|(|x,\<lambda\>|)>>|<cell|<around*|(|<frac|\<partial\>C|\<partial\>x>|)><rsup|T>>>|<row|<cell|<frac|\<partial\>C|\<partial\>x>>|<cell|0>>>>><rsup|-1><matrix|<tformat|<table|<row|<cell|\<nabla\><rsub|x>L<around*|(|x<rsub|k>,\<lambda\><rsub|k>|)>>>|<row|<cell|C<around*|(|x<rsub|k>|)>>>>>>>|<cell|>>|<row|<cell|>|<cell|\<nabla\><rsup|2><rsub|x>L<around*|(|x,\<lambda\>|)>=\<nabla\><rsub|x><rsup|2>f<around*|(|x|)>+<frac|\<partial\>|\<partial\>x><around*|(|<around*|(|<frac|\<partial\>C|\<partial\>x>|)><rsup|T>\<lambda\>|)>>|<cell|>>>>
   </eqnarray*>
 </body>
 
@@ -187,20 +187,20 @@
     <associate|auto-2|<tuple|1.1|1>>
     <associate|auto-3|<tuple|1.2|1>>
     <associate|auto-4|<tuple|1.3|1>>
-    <associate|auto-5|<tuple|2|2>>
+    <associate|auto-5|<tuple|2|1>>
     <associate|auto-6|<tuple|3|2>>
-    <associate|auto-7|<tuple|4|?>>
+    <associate|auto-7|<tuple|4|3>>
   </collection>
 </references>
 
 <\auxiliary>
   <\collection>
     <\associate|toc>
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#516C\>\<#5F0F\>\<#8BF4\>\<#660E\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|1<space|2spc>\<#8BF4\>\<#660E\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-1><vspace|0.5fn>
 
-      <with|par-left|<quote|1tab>|1.1<space|2spc>\<#8868\>\<#73B0\>\<#5F62\>\<#5F0F\>
+      <with|par-left|<quote|1tab>|1.1<space|2spc>\<#7B26\>\<#53F7\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-2>>
 
@@ -208,17 +208,21 @@
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-3>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#65E0\>\<#7EA6\>\<#675F\>\<#6761\>\<#4EF6\>>
+      <with|par-left|<quote|1tab>|1.3<space|2spc>\<#8F6C\>\<#7F6E\>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
-      <no-break><pageref|auto-4><vspace|0.5fn>
+      <no-break><pageref|auto-4>>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#6709\>\<#7EA6\>\<#675F\>\<#6761\>\<#4EF6\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|2<space|2spc>\<#65E0\>\<#7EA6\>\<#675F\>\<#6761\>\<#4EF6\>\<#7684\>\<#6700\>\<#5C0F\>\<#5316\>\<#95EE\>\<#9898\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-5><vspace|0.5fn>
 
-      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#901A\>\<#5F0F\>>
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|3<space|2spc>\<#6709\>\<#7EA6\>\<#675F\>\<#6761\>\<#4EF6\>\<#7684\>\<#6700\>\<#5C0F\>\<#5316\>\<#95EE\>\<#9898\>>
       <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
       <no-break><pageref|auto-6><vspace|0.5fn>
+
+      <vspace*|1fn><with|font-series|<quote|bold>|math-font-series|<quote|bold>|4<space|2spc>\<#901A\>\<#6CD5\>>
+      <datoms|<macro|x|<repeat|<arg|x>|<with|font-series|medium|<with|font-size|1|<space|0.2fn>.<space|0.2fn>>>>>|<htab|5mm>>
+      <no-break><pageref|auto-7><vspace|0.5fn>
     </associate>
   </collection>
 </auxiliary>
