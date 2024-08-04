@@ -22,9 +22,9 @@
 
 (define xguess 0)
 
-(define r1 (regularized-newtown df ddf xguess))
+(define r1 (regularized-newton df ddf xguess))
 
-(define r2 (newtown df ddf xguess))
+(define r2 (newton df ddf xguess))
 
 (plot (list (function f -1.75 1.25)
             (point-label (vector xguess (f xguess)))

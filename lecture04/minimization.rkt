@@ -22,9 +22,9 @@
 
 (define xguess 0)
 
-(define r1 (backtracking-regularized-newtown-step f df ddf xguess))
+(define r1 (backtracking-regularized-newton-step f df ddf xguess))
 
-(define r2 (regularized-newtown-step df ddf xguess))
+(define r2 (regularized-newton-step df ddf xguess))
 
 (plot (list (function f -1.75 1.25)
             (point-label (vector xguess (f xguess)))
