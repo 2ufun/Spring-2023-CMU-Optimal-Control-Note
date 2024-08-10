@@ -34,14 +34,14 @@
 
 
 ;; Regularized Newton's Method
-(define step-regularize
-  (λ (x step)
-    (cond [(> x 0) x]
-          [else (step-regularize (+ x step) step)])))
-
 (define regularized-newton-step
   (λ (func dfunc x0)
-    (let ([beta 1.0])
+    (letrec
+        ([beta 1.0]
+         [step-regularize
+          (λ (x step)
+            (cond [(> x 0) x]
+                  [else (step-regularize (+ x step) step)]))])
       (- x0 (* (/ 1 (step-regularize (dfunc x0) beta)) (func x0))))))
 
 (define regularized-newton
